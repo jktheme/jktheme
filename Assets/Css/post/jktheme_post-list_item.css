@@ -1,0 +1,5 @@
+.post-7.post-list ul.b2_gap {
+    display: flex;
+    flex-flow: wrap;
+    align-items: stretch;
+}

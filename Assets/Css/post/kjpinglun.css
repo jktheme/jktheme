@@ -1,0 +1,40 @@
+/* 快捷回复弹窗样式 */
+.quick-reply-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 304px;
+    max-width: 90%;
+}
+.close-modal{
+    position: relative;
+    float: right;
+}
+.quick-reply-content h3 {
+    margin-top: 0;
+    font-size: 18px;
+    text-align: center;
+}
+.quick-reply-content ul {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0;
+}
+.quick-reply-content ul li {
+    padding: 10px;
+    margin: 5px 0;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.quick-reply-content ul li:hover {
+    background: #f0f0f0;
+}
