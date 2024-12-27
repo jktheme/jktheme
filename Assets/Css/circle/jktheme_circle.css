@@ -1,0 +1,273 @@
+/*圈子页面，只在圈子加载该CSS*/
+.all-circle-users {
+    margin-bottom: 20px;
+}
+.ajax-pager {
+    padding: 0px !important;
+    margin-bottom: 60px;
+}
+.tftable-circle {
+	font-size: 12px;
+	color: #333333;
+	width: 100%;
+	border-width: 1px;
+	border-collapse: collapse;
+}
+.tftable-circle th {
+	font-size: 12px;
+	background-color: #F5F6F7;
+	border-width: 1px;
+	padding: 8px 4px;
+	border: 1px solid #F5F6F7;
+	text-align: center; 
+}
+.tftable-circle tr {
+	background-color: #ffffff; 
+}
+.tftable-circle td {
+	font-size: 12px;
+	border-width: 1px;
+	padding: 5px 1px;
+	border: 1px solid #F5F6F7;
+	text-align: -webkit-center;
+}
+.tftable-circle tr:nth-child(odd){
+	background: no-repeat;
+}
+.tftable-circle tr:hover {
+	background-color: #f5f6f7;
+}
+.circle-widget-button-zmki { 
+    text-align: left;
+	margin-top: 10px;
+}
+.about-widget-circle p{ 
+    padding: 12px 0px 10px!important; 
+}
+.about-widget-circle a::before{
+	background-color:#1677ff;
+}
+.about-widget-circle a {
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 12px;
+    position: relative;
+    padding-left: 17px;
+}
+.about-widget-circle a::before {
+    content: '';
+    width: 6px;
+    height: 6px;
+    position: absolute;
+    left: 0;
+    top: 5px;
+    border-radius: 10px;
+}
+.topic-date.topic-circle b {
+    color: #000!important;
+}
+.topic-footer-left > span {
+    color: #fff!important;
+}
+.create-circle-item p.desc {
+    color: #ffffff!important;
+}
+.circle-hash svg {
+    fill: #fff!important;
+}
+.circle-is-circle-admin,.circle-is-admin {
+    color: #ffffffc7!important;
+}
+.topic-meta-more-box ul {
+    background: #ffffff!important;
+    box-shadow: 0 2px 15px rgb(26 26 26 / 68%)!important;
+    border-radius: 4px;
+}
+.topic-more-menu a {
+    color: #000!important;
+}
+.topic-more-menu li:hover {
+    background: #e4e4e4;
+}
+.topic-more-menu button {
+    color: var(--b2color)!important;
+}
+.topic-answer-login {
+    background: #0000009e!important;
+}
+span.topic-date.topic-circle:hover {
+    background-color: var(--b2color)!important;
+}
+.po-ask button span {
+    background: #ffffff3b!important;
+}
+.b2-widget-circle-info-2.b2-widget-box.about-widget.user-w-announcement li a {
+    left: 94px;
+}
+.sjcnh-sgxgj.sgxgj1 {
+    background-color: #fff;
+    background-image: url(/wp-content/themes/b2child_JK/Assets/xgjimg/chuangjianquanzi.png);
+    height: 56px;
+    margin-bottom: 12px;
+    border-radius: 5px;
+    overflow: hidden;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    list-style-type: none;
+}
+.sjcnh-sgxgj.sgxgj2 {
+    background-color: #fff;
+    background-image: url(/wp-content/themes/b2child_JK/Assets/xgjimg/huodongzhongxin.png);
+    height: 56px;
+    margin-bottom: 12px;
+    border-radius: 5px;
+    overflow: hidden;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    list-style-type: none;
+}
+.sjcnh-sgxgj.sgxgj3 {
+    background-color: #fff;
+    background-image: url(/wp-content/themes/b2child_JK/Assets/xgjimg/guanfanggonggao.png);
+    height: 56px;
+    margin-bottom: 12px;
+    border-radius: 5px;
+    overflow: hidden;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    list-style-type: none;
+}
+.sjcnh-sgxgj.sgxgj4 {
+    background-color: #fff;
+    background-image: url(/wp-content/themes/b2child_JK/Assets/xgjimg/quanzirenwutiaozhan.png);
+    height: 56px;
+    margin-bottom: 12px;
+    border-radius: 5px;
+    overflow: hidden;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    list-style-type: none;
+}
+.all-circle-tags li {
+    border: 0.5px dashed var(--b2color);
+}
+.all-circle-tags li:hover{
+    background: var(--b2color);
+}
+.all-circles-item li{
+    border: 0.5px dashed var(--b2color);
+}
+.create-form-submit {
+    position: absolute;
+    left: 75px;
+}
+/*圈子用户卡片*/
+@media (min-width: 768px) {
+.topic-avatar:hover .jktheme-user-info-card {
+        display: block;
+        animation: fadeIn 0.2s ease;
+    }
+}
+.jktheme-user-info-card::before {
+    content: '';
+    position: absolute;
+    top: 9px;
+    left: -7px;
+    width: 14px;
+    height: 14px;
+    background: white;
+    transform: rotate(315deg);
+    box-shadow: -2px -2px 5px rgba(0,0,0,0.05);
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.topic-header-left .jktheme-user-info-card{
+    width: 400px;
+    position: absolute;
+    left: 68px;
+    z-index: 99;
+    display: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 20px 1px rgba(0,0,0,.2);
+}
+.topic-header-left .jktheme-user-info-card{
+    display: none;
+}
+.topic-header-left:hover .jktheme-user-info-card {
+  display: block;
+  animation: fadeIn 0.2s ease;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.topic-header-left .jktheme-info-card-bg{
+    background-color: #fff;
+    box-shadow: 0 4px 20px 1px rgba(0,0,0,.2);
+    border-radius: 5px;
+    height: 300px;
+}
+.jktheme-info-card-icon{
+    font-size: 37px!important;
+    position: absolute;
+    left: 17px;
+    top: 18px;
+}
+.user-s-info-desc-v{
+    position: relative;
+    text-align: center;
+    top: 20px;
+}
+.topic-type-menu {
+    background-color: transparent!important;
+}
+.po-topic-box-tips {
+    background: #ffffffd9!important;
+}
+.topic-vote-box {;
+    background: #f6f6f617!important;
+}
+.topic-vote-radio-picked > div:last-child span.picked {
+    background: #ff5d8f!important;
+}
+.topic-vote-radio-picked .picked {
+    color: var(--b2color)!important;
+}
+.topic-vote-desc > b.b2-color {
+    border: 1px solid var(--b2color)!important;
+}
+.topic-vote span{
+color: #fff;
+}
+.topic-header i.b2-renzheng3 {
+	 font-size: 15px;
+    position: absolute;
+    left: 26px;
+    top: 22px	
+}
+.topic-vote-box li .vote-bar {
+    background-color: #f5f6f700!important;
+}
+.topic-user-lv .jklv-icon{
+	 height: 37px!important;
+    width: 37px!important;
+    position: relative;
+    bottom: 0px;
+    left: -7px;
+}

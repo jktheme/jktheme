@@ -1,0 +1,9 @@
+#wpon_svip_gif {
+    display: none;
+    width: 200px;
+    height: 61px;
+    border-radius: 0 0 13px 13px;
+    z-index: 1002;
+    top: 545px;
+    position: fixed;
+}

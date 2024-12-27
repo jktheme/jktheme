@@ -1,0 +1,538 @@
+/***************************设计趁年华小工具模块***********************************/
+/*--------------统计小工具模块--------------*/
+.widget_Websitestat h3 {
+	font-weight:700;
+}
+.widgest-boys {
+	overflow:hidden;
+}
+.widgest-boys .widgest-bg {
+	margin:2px;
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center center;
+	cursor:pointer;
+	border-radius:8px;
+}
+.widgest-boys .widgest-main {
+	align-items:center;
+	place-content:flex-start space-around;
+	display:flex;
+	height: 46px;
+}
+.widgest-boys .widgest-meat {
+	display:block;
+	margin-block-start:1em;
+	margin-block-end:1em;
+	margin-inline-start:0px;
+	margin-inline-end:0px;
+	color:rgb(255,255,255);
+	font-weight:700 !important;
+	line-height:1.5 !important;
+}
+.widgest-bg:not(article) {
+	transition:all 0.3s;
+}
+.widgest-bg:not(article):hover {
+	transform:translateX(-10px);
+}
+/*图片路径设置*/
+.widgest-bg1{background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url(#1.jpg);}
+.widgest-bg2{background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url(#2.jpg);}
+.widgest-bg3{background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url(#3.jpg);}
+.widgest-bg4{background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url(#4.jpg);}
+.widgest-bg5{background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url(#5.jpg);}
+.widgest-bg6{background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url(#6.jpg);}
+.widgest-bg7{background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url(#7.jpg);}
+.widgest-bg8{background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url(#8.jpg);}
+.widgest-bg9{background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url(#9.jpg);}
+.widgest-bg10{background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url(#10.jpg);}
+.widgest-bg11{background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url(#11.jpg);}
+/*--------------统计小工具模块--------------*/
+/*-------------用户未登录小工具模块----------------*/
+/*顶部背景和头像*/
+.jkavatar-img, .jkavatar-lg, .jkavatar-mini, .jksquare-box {
+    position: relative;
+    display: inline-block;
+    flex-shrink: 0;
+    width: 80px;
+    height: 80px;
+    left: 110px;
+    top: 60px;
+}
+.jkavatar, .jkradius-cover {
+    border-radius: 100px;
+    display: inline-block;
+}
+.jkavatar, .jkradius-cover {
+    width: 100%;
+    height: 100%;
+    transition: all .2s;
+    -o-object-fit: cover;
+    object-fit: cover;
+	 position: relative;
+    top: -3px;
+}
+.user-cover .user-avatar, .user-card.widget .user-info {
+    text-align: center;
+}
+.jkyhxgjmk {
+    margin-top: 0px;
+	 height: 343px;
+}
+.text-center {
+    text-align: center;
+	 position: relative;
+    top: 50px;
+}
+/*登录注册按钮*/
+.user-w-announcement {
+    position: relative;
+    top: 20px;
+}
+.jkxgj-login-button{
+	position: relative;
+    left: 30%;
+	top: 20px;
+}
+.user-w-logon {
+    top: 45px;
+}
+.jk-loginsjwz{
+    text-align: center;
+    position: relative;
+    top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.jk-loginsjwz::after, .jk-loginsjwz::before {
+    content: "";
+    background: var(--b2color);
+    max-width: 20%;
+    height: 1px;
+    margin: 0 1em;
+    flex: 1;
+}
+.jk-xgjlogin{
+    display: flex;
+    width: 82px;
+    height: 34px;
+    left: 20%;
+    top: 32px;
+    color: #fff!important;
+    border: 0px solid #ffffff!important;
+    background: linear-gradient(135deg, #268df7 10%, #59c3fb 100%)!important;
+    align-items: center;
+    justify-content: center;
+}
+.jk-xgjregister{
+    display: flex;
+    width: 82px;
+    height: 34px;
+    left: 50%;
+    top: -2px;
+    color: #fff!important;
+    border: 0px solid #ffffff!important;
+    background: linear-gradient(135deg, #f59f54 10%, #ff6922 100%)!important;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+/*社交登录动态按钮*/
+/*微博登录*/
+.jk-xgjweibo-button{
+    position: relative;
+    display: inline-block;
+    font-size: 10px;
+    line-height: 16px;
+    text-align: center;
+    padding: 5px 10px;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    border: 1px solid #f4f4f424;
+    border-radius: 20px;
+    text-transform: uppercase;
+    z-index: 1;
+    background: rgb(0 0 0 / 22%);
+}
+.jk-xgjweibo-button:before{
+    position: absolute;
+    content: '';
+    width: 0%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    border-radius: 20px;
+    z-index: -1;
+transition: all 500ms ease;
+}
+.jk-xgjweibo-button:before {
+    background: #bf464652;
+}
+.jk-xgjweibo-button:hover:before {
+    width: 100%;
+}
+.jk-xgjweibo-button i{
+	  position: relative;
+    bottom: 15px;
+	font-size: 26px;
+    right: 3px;
+}
+/*右侧登入小工具请登入文字居中*/
+.user-w-logon p {
+    text-align: center;
+}
+.oauth-login-button {
+    position: relative;
+    justify-content: center;
+    top: 20px;
+}
+.user-w-announcement li a {
+    top: 20px;
+    left: 67%;
+    transform: translate(-50%, -50%);
+}
+.jkxgjnozzjj{
+    padding-top: 10px;
+}
+.oauth-login-button a {
+    margin-top: 6px;
+}
+.oauth-login-button div{
+	 margin: 0 6px;
+    margin-left: 0;
+}
+/*QQ登录*/
+.jk-xgjqq-button{
+    position: relative;
+    display: inline-block;
+    font-size: 10px;
+    line-height: 16px;
+    text-align: center;
+    padding: 5px 10px;
+    width: 40px;
+    height: 40px;
+    left: 2px;
+    color: #fff;
+    border: 1px solid #f4f4f424;
+    border-radius: 20px;
+    text-transform: uppercase;
+    z-index: 1;
+    background: rgb(0 0 0 / 22%);
+}
+.jk-xgjqq-button:before{
+    position: absolute;
+    content: '';
+    width: 0%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    border-radius: 20px;
+    z-index: -1;
+transition: all 500ms ease;
+}
+.jk-xgjqq-button:before {
+    background: #bf464652;
+}
+.jk-xgjqq-button:hover:before {
+    width: 100%;
+}
+.jk-xgjqq-button i{
+	  position: relative;
+    bottom: 15px;
+	font-size: 22px;
+    right: 2px;
+}
+/*微信登录*/
+.jk-xgjwx-button{
+    position: relative;
+    display: inline-block;
+    font-size: 10px;
+    line-height: 16px;
+    text-align: center;
+    padding: 5px 10px;
+    width: 40px;
+    height: 40px;
+    left: 2px;
+    color: #fff;
+    border: 1px solid #f4f4f424;
+    border-radius: 20px;
+    text-transform: uppercase;
+    z-index: 1;
+    background: rgb(0 0 0 / 22%);
+}
+.jk-xgjwx-button:before{
+    position: absolute;
+    content: '';
+    width: 0%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    border-radius: 20px;
+    z-index: -1;
+transition: all 500ms ease;
+}
+.jk-xgjwx-button:before {
+    background: #bf464652;
+}
+.jk-xgjwx-button:hover:before {
+    width: 100%;
+}
+.jk-xgjwx-button i{
+	  position: relative;
+    bottom: 15px;
+	font-size: 27px;
+    right: 3px;
+}
+/*支付宝*/
+.jk-xgjzfb-button{
+    position: relative;
+    display: inline-block;
+    font-size: 10px;
+    line-height: 16px;
+    text-align: center;
+    padding: 5px 10px;
+    width: 40px;
+    height: 40px;
+    left: 2px;
+    color: #fff;
+    border: 1px solid #f4f4f424;
+    border-radius: 20px;
+    text-transform: uppercase;
+    z-index: 1;
+    background: rgb(0 0 0 / 22%);
+}
+.jk-xgjzfb-button:before{
+    position: absolute;
+    content: '';
+    width: 0%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    border-radius: 20px;
+    z-index: -1;
+transition: all 500ms ease;
+}
+.jk-xgjzfb-button:before {
+    background: #bf464652;
+}
+.jk-xgjzfb-button:hover:before {
+    width: 100%;
+}
+.jk-xgjzfb-button i{
+	  position: relative;
+    bottom: 15px;
+	font-size: 27px;
+    right: 3px;
+}
+/*百度登录*/
+.jk-xgjbaidu-button{
+    position: relative;
+    display: inline-block;
+    font-size: 10px;
+    line-height: 16px;
+    text-align: center;
+    padding: 5px 10px;
+    width: 40px;
+    height: 40px;
+    left: 2px;
+    color: #fff;
+    border: 1px solid #f4f4f424;
+    border-radius: 20px;
+    text-transform: uppercase;
+    z-index: 1;
+    background: rgb(0 0 0 / 22%);
+}
+.jk-xgjbaidu-button:before{
+    position: absolute;
+    content: '';
+    width: 0%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    border-radius: 20px;
+    z-index: -1;
+    transition: all 500ms ease;
+}
+.jk-xgjbaidu-button:before {
+    background: #bf464652;
+}
+.jk-xgjbaidu-button:hover:before {
+    width: 100%;
+}
+.jk-xgjbaidu-button i{
+	position: relative;
+    bottom: 15px;
+	font-size: 23px;
+    right: 3px;
+}
+.jkdlxgjbz{
+    height: 100px;
+    width: 300px;
+}
+.jkdlxgjbz img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/*用户未登录小工具手机端*/
+@media screen and (max-width: 768px){
+.jkavatar-img, .jkavatar-lg, .jkavatar-mini, .jksquare-box {
+    left: 38%;
+    top: 85px;
+}
+.jkuser-w-logon {
+    top: 72px;
+}
+/*手机端登录按钮位置*/
+.jk-xgjlogin {
+    left: 27%;
+    top: 58px;
+}
+/*手机端注册按钮位置*/
+.jk-xgjregister {
+    left: 51%;
+    top: 24px;
+}
+/*手机端登录模块高度*/
+.jkyhxgjmk {
+    height: 366px;
+}
+/*手机端社交登录文字*/
+.jk-loginsjwz {
+    top: 34px;
+}
+/*手机端登录按钮背景*/
+.jk-xgjlogin {
+    background: linear-gradient(135deg, #59c3fb 10%, #268df7 100%)!important;
+}
+/*手机端头像显示位置*/
+.jkavatar, .jkfit-cover, .jkradius-cover {
+    position: relative;
+    top: -13px;
+}
+.user-w-logon {
+    top: 63px;
+}
+/*手机端登录？注册文字*/
+.jkxgjloginwh {
+    left: 174px;
+    top: 234px;
+}
+}/*-----------------------用户未登录小工具手机端---------------------*/
+/*----------------------------------------用户已登录小工具-----------------------------------*/
+.jkuser-w-avatar {
+    position: absolute;
+    left: 43%;
+    top: -22px;
+}
+.jkuser-w-avatar img {
+    width: 70px!important;
+    height: 70px!important;
+    min-width: 70px;
+    display: block;
+    border-radius: 35px;
+    position: absolute;
+    top: -16px;
+    left: -15px;
+}
+.jkuser-w-name {
+    position: absolute;
+    top: 33px;
+    width: 300px;
+    text-align: center;
+}
+.jkuser-w-lv {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.jkuser-widget-info {
+    position: relative;
+    display: flex;
+    padding: 57px;
+    align-items: center;
+    justify-content: center;
+}
+.jkonlylvlv {/*若没有vip会员，则加载此css样式*/
+    position: absolute;
+    left:22%;;
+}
+.jkuser-w-tj {
+    display: flex;
+    justify-content: space-between;
+	text-align: center;
+    padding: 10px 20px;
+    height: 69px;
+    box-shadow: inset -13px -48px 80px -35px rgb(17 58 93 / 5%);
+    overflow: hidden;
+}
+.jkxgjzzjj{
+    position: absolute;
+    width: 300px;
+    top: 60px;
+    left: 0px;
+    text-align: center;
+}
+.jknovipp{
+    font-size: 12px;
+    cursor: pointer!important;
+}
+.jknovip{
+    background: var(--b2color);
+    border: 1px solid var(--b2color);
+    border-radius: 4px;
+    color: #fff;
+    width: 61px;
+    height: 17px;
+}
+.jknovipbtn{
+    position: relative;
+}
+.jkyhqdxgj{
+    position: absolute;
+    left: 240px;
+    bottom: 194px;
+    color: #fff;
+    background: linear-gradient(135deg, #f59f54 10%, #ff6922 100%);
+	 border: 0px solid #fff;
+    width: 66px;
+    border-radius: 50px 0 0 50px;
+    padding: 3px 7px;
+}
+/*-------------手机端用户已登录小工具模块----------------*/
+@media screen and (max-width: 768px){
+/*手机端签到按钮位置*/
+.jkyhqdxgj {
+    left: 312px;
+    bottom: 208px;
+}
+}/*-------------手机端用户已登录小工具模块----------------*/
+/*-----------------------------------------------用户已登录小工具模块----------------------------------------*/
+/*浏览历史小工具*/
+.b2-widget-history .widget-title {
+    padding: 0px 16px 8px!important;
+    width: 300px;
+    left: -17px;
+}
+.b2-widget-history span {
+    font-size: 12px;
+    cursor: pointer;
+    width: 35px;
+    position: relative;
+    top: -15px;
+}
+/*文章内页右侧用户面板任务完成度修复*/ 
+.user-widget-content .user-w-rw {
+    width: 32px;
+    height: 32px;
+}
+.user-widget-content .user-w-rw-bg {
+    background: #ffffffde !important;
+    width: 100px;
+    left: -52px;
+    border-radius: 50px 0 0 50px;
+}
+/***************************************************设计趁年华小工具模块**************************************************/

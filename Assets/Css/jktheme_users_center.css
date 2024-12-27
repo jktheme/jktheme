@@ -1,0 +1,230 @@
+/*个人中心*//*未登入个人中心关注私信按钮*/.user-panel-editor-button .user-follow {
+margin-right: -15px!important;
+    margin-top: -32px!important;
+}
+.author-header {
+    overflow: inherit!important;
+}
+/*我的财富边框背景，字体颜色*/.custom-page-row.gold-row {
+    background-color: transparent!important;
+}
+.custom-page-row.gold-row + .custom-page-row.gold-row {
+    border-left: 0px solid #fff!important;
+	 left: 6px;
+    position: relative;
+}
+.gold-page-list li:nth-child(odd) {
+    background: transparent!important;
+}
+.user-money, .user-credit {
+    text-shadow: 10000px 100px 0px #fff!important;
+}
+/*字体大小颜色*/
+.user-sidebar-info.active p {
+    color: #00c18e;
+    font-size: 20px!important;
+}
+.user-sidebar-info p {
+    color: #000000!important;
+    font-size: 20px!important;
+}
+/*菜单右侧小图标隐藏*/.b2-arrow-right-s-line:before {
+    content:none!important;
+}
+/*上传图片按钮隐藏*/.user-cover-button {
+    position: absolute;
+    right: 20px;
+}
+/*设置h2标题调整*/.author-edit-page h2 {
+    color: #00c18e!important;
+    font-size: 24px!important;
+}
+/*概览h2标题调整*/.user-info-title {
+    color: var(--b2color)!important;
+    font-size: 19px!important;
+    line-height: 24px!important;
+}
+/*用户数据*/.user-sidebar-count li {
+    background-color: transparent!important;
+    border: 5px solid transparent!important;
+}
+/*用户财富*/.user-money, .user-credit {
+    background: transparent!important;
+}
+/*头像边框背景*/.user-panel .avatar {
+    border: 0px solid #fff!important;
+}
+.user-open-avatar {
+    background: transparent!important;
+}
+/*代码框文字颜色*/pre code {
+    background: transparent!important;
+}
+/*个人中心背景
+.site-content {
+    background-image: url(https://w.wallhaven.cc/full/m9/wallhaven-m9xyg8.jpg)!important;
+}*//*个人中心概览全部发布文章，发布快讯，关注粉丝等图标*/.user-sidebar-count li i {
+    left: 0px;
+}
+.user-sidebar-count li > div {
+    left: 65px;
+}
+/*发布文章五格排序*/.post-item-1 ul.b2_gap > li {
+    width: 20%!important;
+}
+/*菜单图标背景颜色*/.b2-light, .newsflashes-nav-in ul li.current-menu-item a {
+    background-color: rgb(0 193 142 / 0%)!important;
+}
+/*个人中心顶部*/.author .author-header {
+    margin-top: 0px!important;
+}
+/*上传封面图片按钮button动态按钮开始*/
+.user-cover-button label.empty:hover {
+    border-color: #00c18e;/*鼠标经过边框后显示的颜色*/ color: #fff !important;/*鼠标经过文字后显示的颜色*/}
+.user-cover-button label.empty:hover:before {
+    width: 100%;
+}
+.user-cover-button label.empty:before {
+    position: absolute;
+    content: '';
+    width: 0%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    border-radius: 4px;
+    z-index: -1;
+    transition: all 500ms ease;/*鼠标经过动态颜色的滑动时间*/}
+.user-cover-button label.empty:before {
+    background: #ff5d8f;/*鼠标经过背景后显示的颜色*/}
+.user-cover-button label.empty {
+    position: relative;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    padding: 5px 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #f4f4f4;
+    border-radius: 4px;
+    text-transform: uppercase;
+    z-index: 1;
+}
+.user-cover-button label.empty:after {
+    background: var(--b2color);/*右下角三角形显示的颜色*/}
+.user-cover-button label.empty:after {
+    position: absolute;
+    content: '';
+    height: 30px;
+    width: 26px;
+    top: 0px;
+    right: 0px;
+    clip-path: polygon(40% 0%, 100% 0%, 100% 100%, 0% 100%, 60% 0%);/*右下角颜色的形状*/    opacity: 0.7;/*右下角显示颜色的透明度*/    z-index: -2;
+}
+/*button动态按钮结束*/
+/*认证信息，认证名字*/
+#author-index .user-info .user-renzwenz{
+	left: 108px;
+   position: absolute;
+}
+/*用户名字*/
+.user-mingzi{
+	position: absolute;
+   left: 88px;
+}
+/*模块上下间隙*/
+.mg-b {
+    margin-top: 0px;
+}
+/*个人中心发布的评论背景颜色*/
+.author-comment-content .author-comment-content-text {
+    background: #f5f6f700!important;
+}
+/*个人中心认证V图标icon和认证名字*/
+.jkrenz-name{
+	position: relative;
+    left: 20px;
+}
+/*个人中心用户名字*/
+.jkuser-name{
+	position: relative;
+    left: 4px;
+}
+/*个人中心鼠标选中设置背景颜色*/
+.user-sidebar-info.active {
+    background: rgb(0 0 0 / 11%)!important;
+}
+/*个人中心头像右侧用户昵称*/
+.user-panel-info h1 span {
+    margin-right: 0px!important;
+    position: relative;
+    top: -7px;
+}
+.user-panel-info h1{
+    position: relative;
+    top: 12px;
+}
+/*修改头像鼠标经过显示背景圆角*/
+.editor-avatar {
+    border-radius: 4px;
+}
+/*个人中心订单白色表格线*/
+.order-state{
+    border-right: 1px solid #fff;		
+	}
+.order-total{
+    border-right: 1px solid #fff;		
+	}
+.order-money.tracking-number {
+    border-right: 1px solid #fff;
+}
+/*订单号文字颜色*/
+.order-id {
+    color: #ffffff!important;
+}
+/*财富管理积分购买点开弹窗里兑换额度文字背景颜色*/
+.cg-info {
+    text-shadow: white 0px 0px 0px!important;
+}
+/*统计发布文章，快讯等图标*/
+.user-sidebar-count li i {
+    color: rgb(81 171 254)!important;
+}
+/*--------------------------------------------------个人中心手机端----------------------------------------*/
+@media screen and (max-width: 768px){
+/*个人中心用户名字*/
+.user-panel-info h1{
+	 position: relative;
+    top: 8px;
+}
+/*个人中心资料文字间距*/
+#author-index .user-info p span {
+    margin-right: 0px!important;
+}
+/*手机端财富中心，积分余额中间的白线*/
+.custom-page-row.gold-row+.custom-page-row.gold-row {
+    border-top: 0px solid #fff!important;
+}
+/*我的任务模块上下模块间距*/
+.b2-widget-box {
+    margin-top: 10px;
+}
+/*个人中心订单白色表格线*/
+.order-id, .tracking-number, .order-status {
+    align-items: inherit!important;
+}
+.order-state{
+    border-right: 1px solid #fff;		
+	}
+.order-total{
+    border-right: 1px solid #fff;		
+	}
+.order-money.tracking-number {
+    border-right: 1px solid #fff;
+}
+/*订单框框白线*/.order-money > div, .order-status > div {
+    border-top: 0px solid #fff!important;
+}
+/*--------------------------------------------------个人中心手机端----------------------------------------*/
+}
+/*--------------------------------------------------个人中心手机端----------------------------------------*/

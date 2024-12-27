@@ -1,0 +1,141 @@
+/*登入弹窗*/.login-box-content {
+    margin-top: 0;
+    width: auto;
+    display: flex;
+    position: relative;
+    background: #fff;
+    min-width: 750px;
+}
+.aibk_com_login {
+    width: 50%;
+    position: relative;
+    background: url(https://img.sjcnh.cn/images/dengrubizhi.jpg);
+    background-size: cover;
+    background-position: center 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.login-box-content .login-box-top {
+    width: 50%;
+    padding: 30px 30px 25px;
+}
+.wxlogin-sidebar {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0.8) 100%);
+    border-bottom-left-radius: 5px;
+}
+.wxlogin-sidebar h3{
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.wxlogin-sidebar p{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+}
+.wxlogin-sidebar div {
+    padding: 30px;
+}
+@media screen and (max-width: 768px){
+.aibk_com_login {
+    display: none;
+}
+.login-box-content{
+ min-width: auto;
+}
+.login-box-content .login-box-top{
+    width: 100%;
+}
+}
+/*登入弹窗*//*登入弹窗社交登入白线边框*/.login-social-button-bottom {
+    border: 0px solid #F5F6F7!important;
+}
+/*社交登入按钮背景颜色*/
+.login-box-content .login-social-button-bottom a {
+    background: rgb(255 255 255 / 35%)!important;
+}
+/*修改微信--订阅号--登入按钮*/
+.ews-tips{
+	position: relative;
+   top: 4px;
+	text-align: center;
+}
+.ews-input{
+	position: relative;
+    height: 31px;
+	top: 1.5px;
+	border-radius: 3px;
+}
+.ews-button{
+	 height: 31px;
+	border: 0px solid #00c18e;
+	border-radius: 3px;
+}
+/*登录弹窗logo底部 登入 注册文字颜色*/
+.login-title {
+    color: #ffffff!important;
+}
+/*登录邮箱底下用作登录文字颜色*/
+.login-box-des {
+    color: #fff!important;
+}
+/*请输入邀请码文字颜色*/
+.invitation-tips {
+    color: #ffffff!important;
+}
+/*请输入验证码文字颜色*/
+.recaptcha-img p {
+    color: #ffffff!important;
+}
+/*找回密码文字颜色*/
+.forget-pass-info {
+    background: #0000!important;
+    color: #000000!important;
+}
+/*微信订阅号登录 微信i图标*/
+.jk-loginwx-dyh{
+	color:#000
+}
+/*登入弹窗输入文字框背景*/.login-form-item input {
+    background: transparent!important;
+}
+.login-form-item span {
+    color: #000000!important;
+}
+/*登入弹窗邀请码文字框背景*/.invitation-input input {
+    background: transparent!important;
+}
+/*注册弹窗绑定邮箱处背景颜色*/
+.bind-pass-info div {
+    background: #f8f8f800!important;
+    color: #ffffff!important;
+}
+/*登入登录邮箱密码文字背后线条颜色*/
+.login-form-item input:valid + span:after{
+    background: #ffffff00!important;
+}
+/*注册勾选我已同意背景颜色*/
+.site-terms {
+    background: #f9f9f945!important;
+}
+/*登录输入框文字*/
+.login-form-item span b {
+    top: -9px;
+    left: -13px;
+}
+/*--------------------------------------------手机端显示----------------------------------*/
+@media screen and (max-width: 768px){
+/*手机端输入验证码位置*/
+.erphp-weixin-scan .ews-box {
+    text-align: center;
+}
+.erphp-weixin-scan .ews-title {
+    text-align: center;
+}
+/*手机端输入验证码框框位置*/
+.ews-input {
+    top: -2px;
+}
+}/*--------------------------------------------手机端显示-------------------------------------*/

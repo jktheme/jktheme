@@ -1,0 +1,371 @@
+@media screen and (max-width: 768px){
+/*文章内页作者等级*/
+.jkpost-user-w-lv{
+        display: none;
+    }
+/*手机端网格文章显示下载和隐藏按钮*/
+.post-pay-type {
+    bottom: 189px!important;
+    left: 4px!important;
+}
+/*手机端左侧展开菜单*/
+.sub-menu {
+    top: 0px!important;
+}
+/*手机端左侧展开菜单背景颜色*/.social-top .top-menu ul li.depth-0>a {
+    background: #00000052!important;
+}
+.mobile-box {
+    background: #b5b5b5e0!important;
+}
+.top-menu-ul>li.depth-0 > a i.b2-arrow-down-s-line {
+    background: transparent!important;
+}
+/*手机端导航栏背景颜色*/.social-top .header-banner-content .header-banner-left {
+    background: transparent!important;
+ border-top: 0px solid #eaeaea4f!important;
+}
+.social-top .show-menu-box .header-logo {
+    background: transparent!important;
+}
+/*手机端左侧展开菜单首页文字颜色*/.top-menu-ul > li.depth-0:first-child > a {
+   color: #fff!important;
+}
+.top-menu-ul > li.depth-0:first-child > a {
+    color: #fff!important;
+}
+/*手机端文章排序*/.post-item-1 ul.b2_gap>li {
+    width: 50%!important;
+}
+/*手机端个人中心菜单位置*/.author-page-right {
+    text-align: center;
+}
+.user-sidebar {
+    width: 25%!important;
+}
+/*收藏发布菜单图标位置*/
+.user-sidebar-count li > div {
+    left: 43px;
+}
+/*文章网格底部作者信息名字*/.post-info span {
+    height: 19px;
+}
+/*手机端文章左下角分享海报按钮*/.content-footer-poster button.poster-span {
+    background: linear-gradient(50deg,#00c18e,#ff5d8f)!important;
+}
+.content-footer-zan-cai span {
+    background: #f6f6f600!important;
+}
+/*手机端底部备案信息*/.copyright{
+    left: -102px;
+    top: 13px;
+    position: relative;
+}
+.dibumz{
+    top: 0px;
+    position: relative;
+}
+.dibuicp{
+    top: 0px;
+    left: -117px;
+    position: relative;
+}
+.dibugaba{
+    top: -23px;
+    left: 88px;
+    position: relative;
+}
+.footer-bottom-right{
+    top: -71px;
+    left: 100px;
+    position: relative;
+}
+/*评论区随机回复按钮*/.lvzt-suijihuifu {
+    left: -7px;
+}
+/*菜单小图标*/.menu-icon {
+    background: rgb(246 246 246 / 0%)!important;
+}
+/*个人中心未登入关注私信按钮*/.user-panel-editor-button .user-follow {
+    margin-top: 6px!important;
+    margin-right: -6px!important;
+}
+/*个人中心等级图标*/
+.user-cover-button label.empty:after {
+    height: 24px;
+}
+/*头像右下角认证图标*/.top-user-box i.b2-vrenzhengguanli {
+	position: relative;
+    bottom: 11px!important;
+    right: -6px!important;
+    width: 0px!important;
+    height: 0px!important;
+    font-size: 16px!important;
+}
+/*评论区认证图标*/
+.comments-box i.b2-renzheng3 {
+    font-size: 15px;
+    position: absolute;
+    left: 21px;
+    top: 16px;
+}
+/*文章顶部作者信息头像*/
+.post-meta-left .avatar-parent {
+    left: 0px;
+}
+.post-meta-left .post-user-name {
+    left:55px;
+	top: 0px;
+}
+.post-user-info {
+    margin: -10px 0px 6px 0px!important;
+    position: relative;
+    top: 18px;
+}
+/*文章页广告站长推荐文字*/
+.n_banner_inner .Banner-adTag {
+    width: 60px!important;
+    font-size: 12px!important;
+    line-height: 14px!important;
+}
+/*底部本站运行时间*/
+.jk-bzyunxing {
+    position: absolute;
+    left: -100px;
+    top: -20px;
+}
+/*隐藏手机端悬浮导航*/
+#jkmenu{
+	display: none;
+	}
+/*文章内页作者信息私信按钮*/
+.wzdbsx{
+	left: 0px;
+}
+/*文章内页关注微信公众号获取验证码*/
+.gzh-content {
+    padding: 20px 124px 36px 3px;
+}
+.gzhhide .gzhtitle {
+    padding: 7px 0px 0 24px;
+}
+.gzhhide .gzhtitle i {
+    left: 0px;
+}
+.gzhhide .gzhcode {
+    top: 153px;
+}
+.gzhbox input {
+    width: 63%;
+}
+.gzhbox button {
+    width: 32%;
+    margin-left: 2%;
+    padding: 8px 0;
+}
+/*圈子投票选项背景颜色*/
+.topic-vote span {
+    background: #fff0;
+}
+/*手机端文章内页有下载资源时文章不显示下载按钮*/
+.single-button-download button {
+    display: none;
+}
+/*手机端不显示百度已收录文字*/
+.jk-baidushoulu {
+    display: none;
+}
+/*手机端悬浮文章目录位置*/
+.mg-bound {
+    top: 470px;
+}
+/*手机端文章顶部未登入显示关注私信按钮右下角三角形*/
+.post-meta-right button :after {
+    height: 26px;
+}
+.wzdbsx:after {
+    height: 26px;
+}
+.wzdbgz:after {
+    height: 26px;
+}
+/*文章顶部不显示文章ID*/
+.single-id {
+    display: none;
+}
+/*文章顶部不显示文章来源*/
+.single-from{
+	display: none;
+	}
+/*不显示底部友情链接，底部彩色条*/
+.site-footer-nav .container-bq {
+    display: none;
+}
+.footer .footer-colors {
+	display: none;
+}
+/*手机端搜索用户展示页面排版*/
+.user-search-list li {
+    width: 42%!important;
+}
+/*搜索用户展示页面 认证图标*/
+.user-search-list i.b2-renzheng3 {
+    font-size: 15px;
+    position: absolute;
+    left: 25px;
+    top: 27px;
+}
+/*手机端文章分类列表浏览量和点赞量图标位置*/
+.b2-single-content .post-list-meta {
+    bottom: -18px;
+    background-color: #fff0;
+}
+.b2-single-content .post-list-cat {
+    top: 27px;
+    left: -40px;
+}
+.b2-single-content .box {
+    background-color: #ffffff!important;
+}
+/*手机端网格图标点击显示文章分类*/
+.post-list-cat {
+    top: 26px;
+    left: -41px;
+}
+/*文章内页顶部作者信息右侧关注私信按钮*/
+.post-meta-right button {
+    padding: 0px 0px!important;
+}
+/*文章内页隐藏内容区，未登录显示文字*/
+.content-buy-count {
+    margin-left: 32px!important;
+}
+/*手机端logo位置和长宽*/
+.social-top .logo {
+    width: 171px!important;
+    left: -113px!important;
+}
+/*手机端展开菜单顶部logo位置*/
+.social-top .mobile-box .header-logo {
+    margin-left: 57px!important;
+    margin-top: -7px!important;
+}
+/*帮助页面，展开菜单栏 菜单文字颜色*/
+.post-style-2 .top-menu ul li.depth-0 > a {
+    color: #fff!important;
+}
+/*手机端筛选分类下拉菜单*/
+.filters-box{
+    background-color: #cbcbcb;
+    border-radius: 10px;
+}
+#filter-top ul li {
+    margin-left: 0px!important;
+}
+/*手机端社交登录按钮*/
+.login-box-content .login-social-button-bottom a {
+    height: 30px!important;
+}
+/*手机端弹窗界面背景颜色*/
+.box, .side-fixed {
+    background-color: #ffffff75!important;
+}
+/*手机端个人中心认证图标*/
+#author-index i.b2-renzheng3 {
+    left: 80px;
+    top: 17px;
+}
+.top-user-info-box .jklv-icon {
+    bottom: 12px;
+    left: -13px;
+}
+/*手机端底部高度*/
+.footer {
+    height: 59px!important;
+}
+.footer-bottom {
+    margin-bottom: 0px!important;
+}
+/*手机端个人中心发布文章，发布快讯，等菜单宽度,颜色*/
+.user-sidebar-count li {
+    padding: 3px!important;
+}
+.user-item-desc {
+    color: #000!important;
+}
+/*手机端开通会员轮播展示*/
+.jk-sjhyzs{
+	 position: relative;
+    top: 5px;
+    border-radius: 13px 13px 0px 0px;	
+	}
+.jk-sjhyzsimg{
+	position: relative;
+    bottom: 5px;
+	background: #ffffff7a;
+    border-radius: 13px 13px 0px 0px;
+	}
+/*顶部社交二级菜单栏宽度*/
+.top-style .ym-menu {
+    padding: 0px 23px 0 0!important;
+}
+/*手机端钻展底部背景颜色*/
+.home-row-left .box{
+	background-color: #fff!important;
+}
+/*手机端分类模块课程学习，知识星球模块圆角*/
+.mrxu_num1 {
+    position: relative;
+    padding-bottom: 12px;	
+	}
+.mrxu_num2 {
+    position: relative;
+    padding-bottom: 12px;	
+	}
+.mrxu_num1 img{
+	border-radius: 4px;	
+	}
+.mrxu_num2 img{
+	border-radius: 4px;	
+	}
+/*文字内页下载权限查看文字*/
+.download-rights .mobile-show {
+    right: 23px!important;
+    top: 20px!important;
+}
+/*文章内页赞助按钮*/
+#TA-con {
+    top: 38px!important;
+}
+/*文章内页赞踩按钮颜色*/
+.content-footer-zan-cai span {
+    color: #ffffff!important;
+}
+/*菜单栏hot动态图标手机端位置*/
+.shot-icon {
+    margin-left: 74px;
+    margin-top: -12px;
+}
+/*手机端左侧展开菜单底部客服图片*/
+.mobile-box.show-menu-box:after {
+    width: 170px;
+    height: 160px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    content: " ";
+    background-image: url(https://img.sjcnh.cn/images/sjcnhimg/kefu.png);
+    background-size: 100% 100%;
+}
+/*手机端首页网格文章展示文章内详情*/
+.post-excerpt {
+    width: auto;
+}
+/*文章内页热帖图片位置*/
+.hottz{
+    top: -288px;
+    width: 22%;
+}
+
+
+}/*←←←←←←←不可删除括号*/

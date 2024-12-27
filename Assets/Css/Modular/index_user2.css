@@ -1,0 +1,198 @@
+/**用户排行榜开始*/
+@media screen and (max-width: 768px){
+.layui-clear {
+    display: none;
+}
+}
+.jkrmyh3 .left {
+    float: left;
+}
+.jkrmyh3 .right .top-ul li a h3 {
+    white-space: nowrap;
+}
+.jkrmyh3 .right {
+    float: right;
+}
+img {
+    border: none;
+}
+ 
+.jkrmyh3 {
+    width: 1500px;
+    margin-bottom: 25px;
+    padding: 22px 20px;
+    position: relative;
+    height: 147px;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 5px;
+}
+.jkrmyh3 .tg-ph {
+    background-size: 100% 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 2;
+    display: block;
+    width: 60px;
+    height: 60px;
+}
+.jkrmyh3 .left {
+    height: 100%;
+}
+.jkrmyh3 .left a {
+    display: block;
+    width: 121px;
+    height: 45px;
+    line-height: 45px;
+    background: #f6f6f6;
+    text-align: center;
+    font-size: 15px;
+    color: #989898;
+    margin-bottom: 13px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.jkrmyh3 .left a:last-child {
+    margin-bottom: 0;
+}
+.jkrmyh3 .left .hover {
+    background: var(--b2color);
+    color: #FFF;
+    position: relative;
+}
+.jkrmyh3 .left .hover:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    border-left: 10px solid var(--b2color);
+    position: absolute;
+    top: 15.5px;
+    right: -10px;
+    z-index: 1;
+}
+.jkrmyh3 .right-main {
+    height: 100%;
+    overflow-y: auto;
+    margin-bottom: 30px;
+}
+.jkrmyh3 .right-main:last-child {
+    margin-bottom: 0px;
+}
+.jkrmyh3 .right-overflow {
+    transition: 0.4s all;
+    transform: translateY(0);
+}
+.jkrmyh3 .right {
+    float: left;
+    width: calc( 100% - 147px);
+    margin-left: 26px;
+    height: 100%;
+}
+.jkrmyh3 .right .top-ul {
+    height: 130px;
+    overflow: hidden;
+}
+.jkrmyh3 .right .top-ul li {
+    width: 78px;
+    float: center;
+    margin:0px 20px;
+    display:inline-block;
+}
+.jkrmyh3 .right .top-ul li:nth-child(10n) {
+    margin-right: 0;
+}
+.jkrmyh3 .right .top-ul li a {
+    display: block;
+}
+ 
+.jkrmyh3 .right .top-ul li a .list-img {
+    width: 100%;
+    height: 78px;
+    line-height: 38px;
+    text-align: center;
+    border-radius: 10px;
+}
+.jkrmyh3 .right .top-ul li a .list-img img {
+    width: 100%;
+}
+.jkrmyh3 .right .top-ul li a .list-img img:hover {
+    opacity: 0.8;
+}
+.jkrmyh3 .right .top-ul li a h3 {
+    margin-top: 7px;
+    font-size: 13px;
+    line-height: 25px;
+    height: 25px;
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+}
+.new-position {
+    height: 780px;
+}
+.new-position .left {
+    height: 100%;
+    width: calc( ( 100% - 13px ) * 0.36 );
+}
+.new-position .right {
+    width: calc( ( 100% - 13px ) * 0.64 );
+    height: 100%;
+    background: #FFF;
+    padding: 17px 28px;
+}
+.new-position .layui-carousel > [carousel-item] > * {
+    background: #FFF;
+}
+.new-position #index-lb {
+    height: 300px;
+}
+.new-position #index-lb div div img {
+    width: 100%;
+    min-height: 100%;
+}
+.new-position .index-login {
+    background: #FFF;
+    margin-top: 13px;
+    height: calc( 767px - 300px);
+    padding: 25px 33px;
+    position: relative;
+}
+span.note {
+    position: absolute;
+    top: 10px;
+    right: -50px;
+    z-index: 1;
+    width: 140px;
+    height: 20px;
+    background: var(--b2color);
+    color: #fff;
+    line-height: 20px;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    text-align: center;
+    font-size: 12px;
+}
+img.rela {
+    position: absolute;
+    left: 52px;
+    z-index: 2;
+    /* right: 50px; */
+    top: 58px;
+    height: 25px;
+    width: 25px;
+}
+/*头像呼吸光环和鼠标悬停旋转放大开始*/
+img.yuan {
+    border-radius: 50%;
+    animation: light 4s ease-in-out infinite;
+    transition: 2s;
+}
+img.yuan:hover {
+    transform: scale(1) rotate(720deg);
+}
+}
+/*头像呼吸光环和鼠标悬停旋转放大结束*/
+/**用户排行榜结束*/

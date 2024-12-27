@@ -1,0 +1,230 @@
+/*首页排行榜*/
+@media screen and (max-width: 768px){
+    .mi-index-ranking{
+        display: none;/*手机端保不展示*/
+    }
+}
+.mi-index-ranking {
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+.maxWidth {
+    margin: 0 auto;
+    width: 1500px;
+    overflow: hidden;
+}
+.mi-index-ranking-tab {
+    font-size: 16px;
+    color: #999;
+    height: 20px;
+    line-height: 20px;
+    list-style: none;
+    margin-bottom: 20px;
+}
+.mi-index-ranking-tab > li.on {
+    color: #2C2C2C;
+}
+.mi-index-ranking-tab > li {
+    float: left;
+    margin-right: 30px;
+    font-size: 22px;
+    color: #999999;
+    font-weight: 600;
+}
+.mi-index-ranking-contentList {
+    overflow: hidden;
+}
+.rankingList {
+    width: 1500px;
+    overflow: hidden;
+}
+.rankingList > .rankingList-module {
+    width: 484px;
+    height: 610px;
+    padding: 26px 20px 20px;
+    float: left;
+    background-color: #fff;
+    border-radius: 6px;
+    box-sizing: border-box;
+    margin: 8px;
+}
+.rankingList-module-title {
+    margin-bottom: 22px;
+    height: 20px;
+}
+.title-name {
+    font-size: 16px;
+    font-weight: bold;
+    color: #2c2c2c;
+    float: left;
+    margin-right: 4px;
+    line-height: 20px;
+}
+.title-tab {
+    float: left;
+    width: 38px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 12px;
+    color: #999;
+    background-color: #F6F6F6;
+    border-radius: 14px;
+    margin-left: 6px;
+    cursor: pointer;
+}
+.title-tab.active {
+    color: #f66f0c;
+    background-color: #FFF5EF;
+}
+.title-stateList {
+    position: relative;
+    float: right;
+    font-size: 0;
+    color: #2c2c2c;
+    padding-bottom: 2px;
+    cursor: pointer;
+}
+.title-stateList > span {
+    display: inline-block;
+    font-size: 12px;
+    margin-right: 4px;
+}
+.rankingList-module-list > li {
+    margin-top: 12px;
+    width: 100%;
+    line-height: 18px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.rankingList-module-list > li > .order {
+    float: left;
+    width: 18px;
+    height: 21px;
+    margin-right: 16px;
+}
+.rankingList-module-list > li > .order > img {
+    width: 100%;
+    height: 100%;
+}
+.rankingList-module-list > li .picture-show {
+    position: relative;
+    float: left;
+    width: 400px;
+    height: 200px;
+    background: #D8D8D8;
+    border-radius: 6px;
+}
+.rankingList-module-list > li .flowerNumber-bookPicture {
+    display: block!important;
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+}
+.picture-show-info {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    padding: 0 0 0 16px;
+    box-sizing: border-box;
+    background-image: linear-gradient(-180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.56) 100%);
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+.picture-show-info > .picture-show-info-name {
+    font-size: 14px;
+    color: #fff;
+    height: 18px;
+    margin: 18px 0 2px;
+    overflow: hidden;
+}
+.picture-show-info-bottom {
+    line-height: 14px;
+    overflow: hidden;
+}
+.picture-show-info-bottom > span {
+    float: left;
+    font-size: 12px;
+    color: #fff;
+}
+.picture-show-info-bottom > .flowerNumber, .picture-show-info-bottom > .flowerNumbers {
+    line-height: 14px;
+    float: right;
+    position: relative;
+    right: 15px;
+}
+.picture-show-info-bottom > .flowerNumber > span, .picture-show-info-bottom > .flowerNumber > img, .picture-show-info-bottom > .flowerNumbers > span, .picture-show-info-bottom > .flowerNumbers > img {
+    display: block;
+    float: right;
+    color: #fff;
+    font-size: 12px;
+    position: relative;
+    left: 6px;
+}
+.picture-show-info-bottom > .flowerNumber > img, .picture-show-info-bottom > .flowerNumbers > img {
+    width: 12px;
+    margin-top: 2px;
+    margin-right: 6px;
+}
+.rankingList-module-list > li > .flowerNumber > span, .rankingList-module-list > li > .flowerNumbers > span {
+    font-size: 12px;
+    float: right;
+    position: relative;
+    right: 15px;
+}
+.rankingList-module-list > li > .flowerNumber > img, .rankingList-module-list > li > .flowerNumber > span, .rankingList-module-list > li > .flowerNumbers > img, .rankingList-module-list > li > .flowerNumbers > span {
+    vertical-align: middle;
+    display: inline-block;
+}
+.rankingList-module-list > li > .flowerNumber > img, .rankingList-module-list > li > .flowerNumbers > img {
+    width: 12px;
+}
+.rankingList-module-list > li > .flowerNumber, .rankingList-module-list > li > .flowerNumbers {
+    width: 63px;
+    float: right;
+    font-size: 0;
+    color: #999;
+}
+.rankingList-module-list > li > .z-author {
+    font-size: 14px;
+    color: #2C2C2C;
+    width: 235px;
+    height: 20px;
+    line-height: 20px;
+    float: left;
+    overflow: hidden;
+}
+@media screen and (min-width: 850px){
+.u-navitem-other {
+    position: absolute;
+    right: -15px;
+    font-size: 0;
+}
+.u-navitem-other a {
+    line-height: 36px;
+    font-size: 14px;
+    color: #333;
+    display: inline-block;
+    margin-right: 25px;
+}
+.u-navitem-other a:before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+.u-navitem-welfare:before {
+    background-image: url(../nav-welfare.png);
+}
+.u-navitem-user:before {
+    background-image: url(../nav-user.png);
+}
+.u-navitem-author:before {
+    background-image: url(../nav-author.png);
+}
+}

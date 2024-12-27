@@ -1,0 +1,88 @@
+.jk-close-button {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    top: -15px;
+    right: -11px;
+    font-size: 14px;
+    display: flex;
+    color: #ffffff;
+    border-radius: 50%;
+    background-color: #a7a7a7;
+    align-items: center;
+    justify-content: center;
+}
+.footSideBar {
+    position: fixed;
+    z-index: 1000;
+    left: calc(50%);
+    transform: translateX(-50%);
+    align-items: center;
+    justify-content: space-between;
+    bottom: 24px;
+    display: flex;
+    width: 932px;
+    padding: 0 24px 0 32px;
+    background: rgb(155 155 155 / 80%);
+    backdrop-filter: blur(8px);
+    margin: auto;
+    right: 0;
+    height: 76px;
+    box-shadow: 0 2px 18px rgba(42, 49, 67, .05);
+    border-radius: 18px;
+    transition: 0.5s ease-in-out;
+}
+.footSideBar:hover,.jk-close-button:hover {
+	background: rgba(27,35,55,.9);
+    transition: 0.5s ease-in-out;
+}
+.footSideBar .left_warp .left_word {
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 24px;
+	color: #fff
+}
+.footSideBar .left_warp .login_ad_list {
+	margin-top: 6px;
+	display: flex;
+}
+.footSideBar .left_warp .login_ad_list .login_ad_item span {
+	margin-left: 6px;
+	color: #fff;
+	font-size: 12px;
+	line-height: 20px;
+	max-width: 150px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap
+}
+.footSideBar .left_warp .login_ad_list .login_ad_item:not(:last-child) {
+	margin-right: 24px
+}
+.footSideBar .login-button .login-button_wrapper {
+	-webkit-mask-image: -webkit-radial-gradient(#fff,#000);
+	overflow: hidden;
+	border-radius: 40px;
+	min-width: 140px;
+    background: var(--b2color);
+    height: 44px;
+    width: auto;
+}
+.footSideBar .login-button .login-button_wrapper span {
+    color: #fff;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 16px;
+    width: 140px;
+    height: 44px;
+    position: relative;
+    letter-spacing: .02em;
+    line-height: 1.5;
+    cursor: pointer;
+}
+@media screen and (max-width: 1221px) {
+    .footSideBar{display:none;}
+}

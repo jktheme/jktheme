@@ -1,0 +1,344 @@
+.jkbottom_Search{
+    position: relative;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    margin: 20px 0 20px 0;
+    margin-bottom: 20px;
+}
+@media (max-width:768px) {
+.jkbottom_Search{
+    display: none;
+} 
+}
+#banner_wave_1 {
+    height: 65px;
+    background: url(https://www.sjcnh.cn/wp-content/themes/b2child_JK/Assets/images/sousuo/bb2dac96f12dc.png) repeat-x;
+    position: absolute;
+    bottom: 0px;
+    width: 400%;
+    left: -300px;
+    z-index: 1;
+    opacity: 0.2;
+    transition-duration: .4s, .4s;
+    animation-name: bolang2;
+    animation-duration: 240s;
+    animation-fill-mode: backwards;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+#banner_wave_2 {
+    height: 80px;
+    background: url(https://www.sjcnh.cn/wp-content/themes/b2child_JK/Assets/images/sousuo/8151cbbe7392d.png) repeat-x;
+    position: relative;
+    top: 600px;
+    width: 400%;
+    left: 0;
+    z-index: 1;
+    opacity: 0.5;
+    transition-duration: .4s, .4s;
+    animation-name: bolang2;
+    animation-duration: 160s;
+    animation-fill-mode: backwards;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+/* 波浪 ，跟打赏充电按钮有冲突*/
+ @keyframes bolang1 {
+100% {
+    background-position: 100% 0;
+    }
+}
+@keyframes bolang2 {
+100% {
+    background-position: -100% 0;
+    }
+}
+div #html-box-sydhls {
+    z-index: 2;
+}
+.jksearch_text h2 {
+    background: url(https://www.sjcnh.cn/wp-content/themes/b2child_JK/Assets/images/sousuo/ff913110e3132.png) repeat var(--b2color);
+    background-size: 300px auto;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-animation: background 12s infinite linear;
+    animation: background 12s infinite linear;
+}
+.jksearch_text h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 46px;
+    font-weight: 600;
+    margin-bottom: 65px;
+    letter-spacing: 1px;
+    text-shadow: 0 3px 6px rgba(0, 0, 0, .2)
+}
+@-webkit-keyframes background {
+from {
+    background-position: 0 0%;
+}
+to {
+    background-position: 0 -300px;
+}
+}
+@keyframes background {
+from {
+    background-position: 0 0%;
+}
+to {
+    background-position: 0 -300px;
+}
+}
+.jksearch_text {
+    padding: 70px 0px 0px 0px;
+    margin: 0 auto;
+    width: 1200px;
+    max-width: 1200px;
+    *zoom: 1;
+    overflow: visible;
+    z-index: 1;
+}
+.searchTag {
+    letter-spacing: .5px;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    min-width: 700px;
+}
+.searchTag span {
+    display: inline-block;
+    transform: translateY(-1px);
+    color: #ffffffc7;
+}
+.searchTag a {
+    margin-right: 15px;
+    color: #b3b3b3
+}
+.searchTag a:hover {
+    color: var(--b2color);
+}
+.searchTag i {
+    color: var(--b2color);
+    margin-right: 2px;
+    display: inline-block;
+    transform: translateY(1px)
+}
+.jksearch_text form{
+    display: flex;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: center;
+    width: 100%;
+}
+.ict-search-tian {
+    display: flex;
+    border-radius: 30px;
+    box-shadow: 0 0 0 7px rgb(255 255 255 / 20%);
+}
+.ict-search-menu {
+    border-radius: 5px 0 0 5px;
+}
+.ict-search-menu select {
+    border: none;
+    box-shadow: none;
+}
+.select {
+    -webkit-appearance: none;
+    outline: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;
+    padding: 5px 10px;
+    cursor: pointer;
+    box-shadow: inset 0 0 9px rgba(204,204,204,.39);
+    background: url(Assets/fontend/images/arrow.png) no-repeat 97% 11px;
+    padding-right: 20px;
+    border-radius: 3px;
+    border: 1px solid #f5f6f7;
+}
+.select {
+    text-transform: none;
+}
+.ict-search-menu .layui-form-select .layui-input {
+    border: none;
+    background-color: #e5e5e5ab;
+    height: 54px;
+    text-align: center;
+    border-radius: 30px 0 0 30px;
+    font-size: 12px;
+}
+.ict-search-menu .layui-form-select dl dd.layui-this, .ict-search-menu .layui-form-select dl dd:hover {
+    background: none;
+    color: var(--b2color);
+}
+.ict-search-menu .layui-form-select dl dd {
+    width: auto;
+    float: left;
+    font-size: 13px;
+    line-height: 27px;
+}
+.ict-search-menu .layui-form-select dl dd {
+    width: auto;
+    float: left;
+    font-size: 13px;
+    line-height: 27px;
+}
+.ict-search-file {
+    display: flex;
+    border-radius: 0 30px 30px 0;
+    z-index: 0;
+}
+.ict-search-file input {
+    display: block;
+    height: 54px;
+    line-height: 20px;
+    padding: 12px 18px;
+    width: 500px;
+    position: relative;
+    border-radius: 0px;
+    border-left: 1px solid #ccc;
+    border-bottom: 0px solid #fff;
+    border-right: 0px solid #fff;
+    border-top: 0px solid #fff;
+    -webkit-appearance: none;
+    background: #e5e5e5ab;
+}
+.ict-search-file button {
+    width: 100px;
+    z-index: 1000;
+    border: none !important;
+    border-radius: 0 30px 30px 0;
+}
+.ict-search-menu .layui-form-selected dl {
+    text-align: left;
+    width: 600px;
+    margin-top: 20px;
+    overflow: initial;
+    border-radius: 5px;
+}
+.ict-search-menu .layui-form-selected dl::before {
+    content: '';
+    display: block;
+    position: absolute;
+    border-bottom: 8px solid #fff;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    top: -9px;
+    left: 70px;
+}
+.jksearch_bg {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 600px;
+    background-size: cover !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background-blend-mode: multiply; /* 这行代码使黑色滤镜与背景图像混合 */
+}
+
+.jkbtqpimg:before {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    background: #221f1f;
+    background: -moz-linear-gradient(left, rgba(34, 31, 31, 1) 0%, rgba(34, 31, 31, .4) 100%);
+    background: -webkit-linear-gradient(left, rgba(34, 31, 31, 1) 0%, rgba(34, 31, 31, .4) 100%);
+    background: linear-gradient(to right, rgba(34, 31, 31, 1) 0%, rgba(34, 31, 31, .4) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#221f1f', endColorstr='#66221f1f', GradientType=1)
+}
+
+.jkbtqpimg:after {
+    animation: myfirst 250s;
+    -webkit-animation: myfirst 250s;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite
+}
+
+.jkbtqpimg:after {
+    content: "";
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url(https://sjcnh.cn/wp-content/themes/b2child_JK/Assets/images/sousuo/50136295d36c3.png) repeat-y top center;
+    background-size: auto;
+    height: 8888px;
+    opacity: .3;
+    animation: background 12s infinite linear;
+}
+
+/*手机端*/
+@media screen and (max-width:768px) {
+.jksearch_bg {
+    height: 230px;
+    padding-top: 30px;
+    position: relative;
+    overflow: inherit
+}
+.jksearch_bg:after {
+    content: "";
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url(https://sjcnh.cn/wp-content/themes/b2child_JK/Assets/images/sousuo/50136295d36c3.png) repeat-y top center;
+    background-size: 99%;
+    height: 100%;
+    opacity: .3
+}
+.jksearch_text {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    *zoom: 1
+}
+.jksearch_bg {
+    height: 230px;
+    padding-top: 30px;
+    position: relative;
+    overflow: inherit
+}
+.jksearch_bg:after {
+    content: "";
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url(https://www.sjcnh.cn/wp-content/themes/b2child_JK/Assets/images/sousuo/50136295d36c3.png) repeat-y top center;
+    background-size: 99%;
+    height: 100%;
+    opacity: .3
+}
+.jksearch_text h2 {
+    margin-bottom: 30px !important
+}
+.jksearch_text h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    text-shadow: 0 3px 6px rgba(0, 0, 0, .2)
+}
+
+}/*手机端*/

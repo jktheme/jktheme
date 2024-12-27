@@ -1,0 +1,108 @@
+/* 代码块容器基础样式 */
+.entry-content pre {
+    white-space: pre-wrap;
+    overflow-y: scroll;
+}
+.entry-content pre {
+    position: relative;
+    max-height: 500px;
+}
+.code-toolbar {
+    position: relative;
+    margin: 1em 0;
+    background: #282c34;
+    border-radius: 6px;
+    padding-top: 40px;
+    box-shadow: rgba(0, 0, 0, 0.55) 0px 2px 10px;
+}
+/* 工具栏显示控制 */
+.code-toolbar:hover .toolbar {
+    opacity: 1;
+}
+/* 代码块基础样式 */
+.code-toolbar pre {
+    border-radius: 6px;
+}
+/* 自定义滚动条 */
+.code-toolbar pre::-webkit-scrollbar {
+    height: 8px;
+    background-color: #282c34;
+}
+/* 代码内容间距调整 */
+.code-toolbar pre code {
+    padding: 0 10px 0 5px;
+}
+/* 行号样式 */
+.linenums li {
+    padding: 0 !important;
+}
+.linenums li:hover {
+    color: #f70000;
+    background-color: #fffcd321;
+    border-radius: 14px;
+}
+/* Mac风格顶部栏 */
+.code-toolbar:before {
+    content: "@ 设计趁年华";
+    color: #656d78;
+    text-align: center;
+    height: 40px;
+    width: 100%;
+    background: #21252b;
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+/* Mac风格按钮 */
+.code-toolbar:after {
+    content: '';
+    position: absolute;
+    top: 12px;
+    left: 20px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #f06060;
+    box-shadow: 25px 0 0 #10a297, 50px 0 0 #0d9caa, 75px 0 0 #fa987d;
+    z-index: 1;
+}
+/* 复制按钮 */
+.toolbar {
+    position: absolute;
+    top: 6px;
+    right: 10px;
+    z-index: 2;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+/* 移动端适配 */
+@media (max-width: 768px) {
+    .toolbar {
+        opacity: 1;
+        display: block !important;
+        pointer-events: auto !important;
+    }
+    
+    .wp-block-jetpack-markdown .code-toolbar .toolbar {
+        display: block !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+    }
+    
+    .toolbar-item button {
+        display: block !important;
+        pointer-events: auto !important;
+    }
+}
+/* 复制按钮样式 */
+.toolbar-item button {
+    padding: 5px 10px;
+    color: #ccc;
+    cursor: pointer;
+    background: var(--b2color);
+    border-radius: 3px;
+    line-height: 1.4;
+}
